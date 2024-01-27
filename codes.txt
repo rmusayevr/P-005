@@ -1,0 +1,14 @@
+ls - list - siyahı
+folder - qovluq
+cd - change direction - istiqaməti və ya qovluğu dəyişmək
+cd .. - bir addım geri dönmək üçün
+path - yol
+cat - faylların içini oxumaq üçün
+clear - terminalı təmizləmək üçün
+pwd - present working directory - hazırda harada və ya hansı qovluqda olduğunuzu göstərmək üçün
+mkdir - make direction - yeni istiqamət və ya qovluq yaratmaq
+cd . > (faylın adı) - hal-hazırda olduğun qovluğun daxilində boş bir fayl yaratmaq
+rmdir - qovluğu silmək üçün
+rmdir -r - əgər qovluğun içi dolu olsa belə, həmin qovluğu silir
+rm - faylı silmək üçün
+code . - həmin qovluğu birbaşa visual studio code'da açır
