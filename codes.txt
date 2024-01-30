@@ -12,3 +12,14 @@ rmdir - qovluğu silmək üçün
 rmdir -r - əgər qovluğun içi dolu olsa belə, həmin qovluğu silir
 rm - faylı silmək üçün
 code . - həmin qovluğu birbaşa visual studio code'da açır
+
+# data types
+
+integer - int - tam ədədlər (Example: -229, -12, 0, 45, 383)
+float - kəsr ədədlər (Example: -48.123, -1.49, 0.23894, 283.1)
+string - str - dırnaqlar içərisində olan hərf, söz və ya cümlə (Example: "a", "python", 'I am Web Developer')
+boolean - bool - True(1) və ya False(0)
+tuple 
+list
+dict(dictionary)
+set
