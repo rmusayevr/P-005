@@ -23,3 +23,21 @@ tuple
 list
 dict(dictionary)
 set
+
+
+if - əgər 
+elif (else if) - başqa əgər 
+else - başqa
+and - və
+or - və ya 
+nested if - iç-içə if
+
+True and True = True
+True and False = False
+False and True = False
+False and False = False
+
+True or True = True
+True or False = True
+False or True = True
+False or False = False

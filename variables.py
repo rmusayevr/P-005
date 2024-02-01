@@ -96,3 +96,11 @@ import math
 
 # a, b = map(int, input().split())
 # print(2*(a+b))
+
+# a = int(input())
+# x = a // 100
+# y = a % 10
+# z = a // 10 % 10
+# print(f'{x}{y}{z}')
+
+
