@@ -44,12 +44,45 @@
 # elif x <= y:
 #     print(x, y)
 
-x, a, b = map(int, input().split())
+# x, a, b = map(int, input().split())
 
-if (a <= x <= b):
-    print("YES")
-else:
-    print("NO")
+# if (a <= x <= b):
+#     print("YES")
+# else:
+#     print("NO")
+
+
+# a, b, c, d = map(int, input())
+# number = int(str(a) + str(b) + str(c) + str(d))
+
+# if a == 0 or b == 0 or c == 0 or d == 0:
+#     print("NO")
+# elif number % a == 0 and number % b == 0 and number % c == 0 and number % d == 0:
+#     print("YES")
+# else:
+#     print("NO")
+
+# a, b, c = map(int, input())
+
+# if a >= b and b >= c:
+#     number = int(str(a) + str(b) + str(c))
+#     print(number**2)
+# elif b >= a and a >= c:
+#     number = int(str(b) + str(a) + str(c))
+#     print(number**2)
+# elif a >= c and c >= b:
+#     number = int(str(a) + str(c) + str(b))
+#     print(number**2)
+# elif b >= c and c >= a:
+#     number = int(str(b) + str(c) + str(a))
+#     print(number**2)
+# elif c >= b and b >= a:
+#     number = int(str(c) + str(b) + str(a))
+#     print(number**2)
+# elif c >= a and a >= b:
+#     number = int(str(c) + str(a) + str(b))
+#     print(number**2)
+
 
 
 
