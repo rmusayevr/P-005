@@ -27,3 +27,25 @@
 # minimum = int(min(l)/2)
 # for i in l:
 #     print(i-minimum, end = " ")
+
+# 901
+
+# count = 0
+# a = input()
+# for i in range(len(a)):
+#     if i == 0 and (a[0] == "+" or a[0] == "-"):
+#         pass
+#     elif a[i] == "+" or a[i] == "-" or a[i] == "*":
+#         count += 1
+# print(count)
+
+# 8696
+
+number = input()
+if number.count("2") > number.count("5"):
+    print(2)
+elif number.count("5") > number.count("2"):
+    print(5)
+else:
+    print("=")
+    
