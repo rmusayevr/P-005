@@ -35,9 +35,35 @@
 # numbers.remove(48)
 # print(numbers)
 
-l = [1, 1]
+# l = [1, 1]
+# n = int(input())
+# for i in range(2, n+1):
+#     a = l[i-2] + l[i-1]
+#     l.append(a)
+# print(l[-1])
+
+# n = int(input())
+# a = list(map(int, input().split()))
+# count = 0
+# for i in range(1, n-1):
+#     if a[i] > a[i-1] and a[i] > a[i+1]:
+#         count += 1
+# print(count)
+
+# number = str(input())
+# for i in range(len(number)):
+#     digit = int(number[i])
+#     if digit % 2 != 0:
+#         digit -= 1
+#     else:
+#         digit += 1
+#     print(digit, end="")
+
+
 n = int(input())
-for i in range(2, n+1):
-    a = l[i-2] + l[i-1]
-    l.append(a)
-print(l[-1])
+a = list(map(int, input().split()))
+
+for i in range(len(a)):
+    if a.count(a[i]) < 2:
+        print(a[i], end=" ")
+
