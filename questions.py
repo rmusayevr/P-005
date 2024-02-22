@@ -91,4 +91,14 @@
 # s3 = s2.replace("1", "b")
 # print(s3)
 
+# 8318
+
+# n = input()
+# n = n.replace('3', '')
+# n = n.replace('9', '')
+# print(n)
+
+
+
+
 
