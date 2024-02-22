@@ -41,11 +41,54 @@
 
 # 8696
 
-number = input()
-if number.count("2") > number.count("5"):
-    print(2)
-elif number.count("5") > number.count("2"):
-    print(5)
-else:
-    print("=")
+# number = input()
+# if number.count("2") > number.count("5"):
+#     print(2)
+# elif number.count("5") > number.count("2"):
+#     print(5)
+# else:
+#     print("=")
     
+
+# 8571
+    
+# sentence = input().upper()
+# letter = input().upper()
+
+# print(sentence.count(letter))
+
+
+# 8981
+
+# sentence = input()
+# if sentence.count(" ") == 0:
+#     print(-1)
+# else:
+#     last_index = 0
+#     for i in range(len(sentence)):
+#         if sentence[i] == " ":
+#             last_index = i
+
+#     print(sentence.index(" "), last_index)
+
+# 8986 
+
+# word = input()
+# new_word = ""
+# for i in word:
+#     if i == "a":
+#         new_word += "b"
+#     elif i == "b":
+#         new_word += "a"
+#     else:
+#         new_word += i
+        
+# print(new_word)
+
+# s = input()
+# s1 = s.replace("a", "1")
+# s2 = s1.replace("b", "a")
+# s3 = s2.replace("1", "b")
+# print(s3)
+
+
