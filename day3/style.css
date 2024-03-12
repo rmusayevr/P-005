@@ -27,6 +27,7 @@ body {
   padding: 15px 20px;
   text-decoration: none;
   text-transform: uppercase;
+  font-size: 15px;
 }
 
 .link:hover {
@@ -61,12 +62,152 @@ body {
 .info {
   position: absolute;
   bottom: 0;
-  padding-bottom: 50px;
+  padding-bottom: 40px;
   width: 100%;
   text-align: center;
 }
 
 .info p,
-h3 {
+.info h3 {
   font-family: "Lato", sans-serif;
 }
+
+#about {
+  padding: 80px 0;
+  width: 56%;
+  margin: auto;
+}
+
+#about h1,
+.book_ticket h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 28px;
+  font-weight: lighter;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#about .motto,
+.book_ticket .motto {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  color: rgb(153, 153, 153);
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+#about .description {
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  text-align: justify;
+  margin-bottom: 60px;
+}
+
+.band_members {
+  display: flex;
+  justify-content: space-around;
+}
+
+.band_members h4 {
+  font-weight: lighter;
+  text-align: center;
+}
+
+#tour_dates {
+  padding: 80px 0;
+  background-color: #000000;
+}
+
+.book_ticket {
+  width: 56%;
+  margin: auto;
+}
+
+#tour_dates .book_ticket .dates {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  background-color: #ffffff;
+  width: 100%;
+  border: 1px solid #c7c7c7;
+}
+
+#tour_dates .book_ticket .dates div {
+  border: 1px solid #c7c7c7;
+  border-collapse: collapse;
+  padding: 12px;
+}
+
+.dates div .months {
+  font-size: 14px;
+  color: #838383;
+}
+
+.dates div .sold_out {
+  background-color: rgb(238, 46, 46);
+  color: #ffffff;
+  font-size: 14px;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.dates div .badge {
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 3px 6px;
+  border-radius: 50%;
+}
+
+.cities {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cities .ticket_about {
+  background-color: #ffffff;
+  width: 245px;
+}
+
+.cities .ticket_about img:hover {
+  opacity: 0.5;
+  filter: grayscale(100%);
+}
+
+.cities .ticket_about .ticket_detail {
+  padding: 15px;
+}
+
+.ticket_detail .about_tour,
+.ticket_detail .city_name {
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+.ticket_detail .full_date {
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  color: #9e9e9e;
+  padding-bottom: 20px;
+}
+
+.ticket_detail .buy_tickets {
+  font-family: 'Lato', sans-serif;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px 15px;
+  border: 0;
+}
+
+.ticket_detail .buy_tickets:hover {
+  background-color: #c7c7c7;
+  color: #000000;
+  cursor: pointer;
+  border: 0;
+}
+
