@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Times New Roman", Georgia, serif;
+}
+
+header a {
+  letter-spacing: 3px;
+  word-spacing: 3px;
+}
+
+#image-section {
+  background-image: url("./images/hamburger.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 610px;
+  position: relative;
+}
+
+#image-section h2 {
+  position: absolute;
+  bottom: 0;
+  letter-spacing: 3px;
+}
+
+#about,
+#menu,
+#contact {
+  width: 80%;
+  margin: auto;
+}
+
+#about p {
+  font-size: 18px;
+}
+
+#about h1 {
+  letter-spacing: 3px;
+}
+#about h6,
+#menu h5 {
+  letter-spacing: 5px;
+}
+
+#contact h5 {
+  color: #607d8b;
+}
