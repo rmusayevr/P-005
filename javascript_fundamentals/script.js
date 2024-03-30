@@ -109,3 +109,84 @@
 //     console.log(`${key}: ${person[key]}`);
 // };
 
+// for (var i = 0; i < 5; i++) {}
+// if (5 < 9) {}
+
+// function showYourAge(age, year) {
+//     let birthdayYear = year - age;
+//     return birthdayYear;
+// }
+
+// console.log(typeof(showYourAge));
+// console.log(typeof(showYourAge()));
+
+// let result = showYourAge(28, 1972);
+
+// console.log(result);
+// console.log(typeof(result));
+
+const colors = ['Green', 'Orange', 'Purple', 'Pink', 'Brown'];
+let fruits = ['Apple', 'Orange', 'Eggplant', 'Dragon Fruit', 'Kiwi'];
+// for (var i = 0; i < colors.length; i++) {
+//     console.log(colors[i], '--> name of color');
+//     console.log(i, '--> index of color');
+// }
+
+// for (const color of colors) {
+//     console.log(color, '--> name of the color');
+// }
+
+// colors.forEach((color, i) => console.log(color, i));
+
+// const newArray = fruits.concat(colors);
+// console.log(newArray);
+// const copiedArray = fruits.copyWithin(2, 0, 2);
+// console.log(copiedArray);
+// const arrayEntries = fruits.entries()
+// for (const entry of arrayEntries) {
+//     console.log(entry);
+// }
+// fruits.pop();
+// console.log(fruits);
+// fruits.push('Banana');
+// console.log(fruits);
+// fruits.shift();
+// console.log(fruits);
+// fruits.unshift('Pear', 'Strawberry', 'Mango');
+// console.log(fruits);
+// const slicedFruits = fruits.slice(2, 5);
+// console.log(slicedFruits);
+// const splicedFruits = fruits.splice(4, 5);
+// console.log(splicedFruits);
+// console.log(fruits);
+// const reversedFruits = fruits.slice().reverse()
+// console.log(reversedFruits);
+// console.log(fruits);
+// console.log(colors.join(' ---> '));
+
+
+
+// const colorfulFruits = colors.map((color, i) => createColors(color, i));
+// console.log(colorfulFruits);
+// console.log(colors);
+
+// function createColors(color, i) {
+//     return `${color} ${fruits[i]}`;
+// }
+
+// const mergedColors = colors.reduce((previousColor, color) => mergeColors(previousColor, color));
+// console.log(mergedColors);
+// console.log(colors);
+
+// function mergeColors(previousColor, color) {
+//     return `${previousColor} ${color}`;
+// }
+
+// const comparedData = colors.filter((color, i) => compareData(color, i));
+// console.log(comparedData);
+
+// function compareData(color, i) {
+//     if (color.length === fruits[i].length) {
+//         return `${color} ${fruits[i]}`;
+//     }
+// }
