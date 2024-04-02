@@ -125,8 +125,8 @@
 // console.log(result);
 // console.log(typeof(result));
 
-const colors = ['Green', 'Orange', 'Purple', 'Pink', 'Brown'];
-let fruits = ['Apple', 'Orange', 'Eggplant', 'Dragon Fruit', 'Kiwi'];
+// const colors = ['Green', 'Orange', 'Purple', 'Pink', 'Brown'];
+// let fruits = ['Apple', 'Orange', 'Eggplant', 'Dragon Fruit', 'Kiwi'];
 // for (var i = 0; i < colors.length; i++) {
 //     console.log(colors[i], '--> name of color');
 //     console.log(i, '--> index of color');
@@ -190,3 +190,77 @@ let fruits = ['Apple', 'Orange', 'Eggplant', 'Dragon Fruit', 'Kiwi'];
 //         return `${color} ${fruits[i]}`;
 //     }
 // }
+
+
+// console.log(document.body);
+// console.log(document.title);
+// console.log(document.head);
+// console.log(document.contentType);
+// console.log(document.styleSheets);
+
+// const body = document.getElementsByTagName('body')[0];
+// console.log(body.innerHTML);
+// console.log(body.innerText);
+
+// const head = document.getElementsByTagName('head')[0].innerHTML;
+// console.log(head);
+// const h1 = document.getElementsByTagName('h1')[0].innerHTML;
+// console.log(h1);
+
+// const divID1 = document.getElementById('id1');
+// console.log(divID1.innerHTML);
+// const divClass1 = document.getElementsByClassName('class1');
+// console.log(divClass1);
+
+
+// const divQuery = document.querySelector('#id1')
+// divQuery.innerHTML = '<h1>This is changed div element</h1>'
+// const divQueryText = document.querySelector('#classText')
+// divQueryText.innerText = '<h1>This is changed div element</h1>'
+// console.log(divQuery);
+// const divQueryAll = document.querySelectorAll('.class1')[1]
+// console.log(divQueryAll);
+// const divQuery = document.querySelectorAll('#class1')[2]
+// console.log(divQuery);
+
+// const divQuery = document.querySelectorAll('#class1')[0]
+// divQuery.textContent = 'Wow'
+// console.log(divQuery.textContent);
+
+// const pQuery = document.querySelector('p')
+// console.log(pQuery.parentElement.parentElement);
+// console.log(pQuery.closest('.class12'));
+
+// const childrenQuery = document.getElementById('class1')
+// console.log(childrenQuery.children);
+// console.log(childrenQuery.children[1].children);
+// console.log(childrenQuery.nextElementSibling.nextElementSibling);
+// console.log(childrenQuery.previousElementSibling);
+
+
+// const idElement = document.getElementById("h1");
+// console.log(idElement.getAttribute('style'));
+// idElement.setAttribute('class', 'h1_class');
+// idElement.setAttribute('id', 'h1_id');
+// idElement.id = 'idElement_id'
+// console.log(idElement);
+
+// const aElement = document.querySelector('a');
+// console.log(aElement.href);
+
+const class1IDiv = document.querySelector('#class1')
+console.log(class1IDiv.classList);
+class1IDiv.classList.add('class4');
+console.log(class1IDiv.classList);
+class1IDiv.classList.remove('class1');
+console.log(class1IDiv.classList);
+class1IDiv.classList.replace('class2', 'class5');
+console.log(class1IDiv.classList);
+console.log(class1IDiv.classList.contains('class2'));
+console.log(class1IDiv.classList.contains('class5'));
+function toggleClass() {
+    class1IDiv.classList.toggle('class6');
+    console.log(class1IDiv.classList);
+    class1IDiv.innerHTML = 'aaaaaaaaaaa';
+}
+
